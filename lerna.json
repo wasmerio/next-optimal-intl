@@ -2,7 +2,7 @@
   "$schema": "node_modules/@lerna-lite/cli/schemas/lerna-schema.json",
   "version": "3.26.5",
   "packages": [
-    "packages/*"
+    "packages/next-intl"
   ],
   "npmClient": "pnpm",
   "changelogPreset": "conventional-changelog-conventionalcommits",
