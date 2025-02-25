@@ -10,7 +10,7 @@ import {
   getTranslations
 } from '.';
 
-vi.mock('next-intl/config', () => ({
+vi.mock('next-optimal-intl/config', () => ({
   default: async () =>
     (
       (await vi.importActual('../../../src/server/react-server')) as any

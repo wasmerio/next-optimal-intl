@@ -86,7 +86,7 @@ function initPlugin(i18nPath?: string, nextConfig?: NextConfig): NextConfig {
 
   const nextIntlConfig: Partial<NextConfig> = {};
 
-  // Assign alias for `next-intl/config`
+  // Assign alias for `next-optimal-intl/config`
   if (useTurbo) {
     if (i18nPath?.startsWith('/')) {
       throw new Error(
@@ -103,7 +103,7 @@ function initPlugin(i18nPath?: string, nextConfig?: NextConfig): NextConfig {
           ...nextConfig?.experimental?.turbo?.resolveAlias,
           // Turbo aliases don't work with absolute
           // paths (see error handling above)
-          'next-intl/config': resolveI18nPath(i18nPath)
+          'next-optimal-intl/config': resolveI18nPath(i18nPath)
         }
       }
     };
@@ -112,7 +112,7 @@ function initPlugin(i18nPath?: string, nextConfig?: NextConfig): NextConfig {
       ...[config, options]: Parameters<NonNullable<NextConfig['webpack']>>
     ) {
       // Webpack requires absolute paths
-      config.resolve.alias['next-intl/config'] = path.resolve(
+      config.resolve.alias['next-optimal-intl/config'] = path.resolve(
         config.context,
         resolveI18nPath(i18nPath, config.context)
       );
