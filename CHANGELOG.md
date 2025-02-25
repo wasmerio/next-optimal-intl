@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.1](https://github.com/wasmerio/next-optimal-intl/compare/v4.0.0...v4.0.1) (2025-02-25)
+
+**Note:** Version bump only for package root
+
 ## 4.0.0 (2025-02-25)
 
 ### ⚠ BREAKING CHANGES
