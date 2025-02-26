@@ -5,7 +5,7 @@ import {
   _createCache,
   _createIntlFormatters,
   initializeConfig
-} from '../../../../use-optimal-intl/core';
+} from 'use-optimal-intl/core';
 import {isPromise} from '../../shared/utils';
 import {getRequestLocale} from './RequestLocale';
 import {getRequestLocale as getRequestLocaleLegacy} from './RequestLocaleLegacy';

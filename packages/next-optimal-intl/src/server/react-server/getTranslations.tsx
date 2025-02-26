@@ -9,7 +9,7 @@ import {
   RichTranslationValues,
   TranslationValues,
   createTranslator
-} from '../../../../use-optimal-intl/core';
+} from 'use-optimal-intl/core';
 import getConfig from './getConfig';
 
 // Maintainer note: `getTranslations` has two different call signatures.

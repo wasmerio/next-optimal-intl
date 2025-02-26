@@ -11,9 +11,9 @@
 import {
   useFormatter as base_useFormatter,
   useTranslations as base_useTranslations
-} from '../../../use-optimal-intl/dist/types/src';
+} from 'use-optimal-intl/dist/types/src';
 
-export * from '../../../use-optimal-intl/dist/types/src';
+export * from 'use-optimal-intl/dist/types/src';
 
 // eslint-disable-next-line @typescript-eslint/no-unsafe-function-type
 function callHook(name: string, hook: Function) {

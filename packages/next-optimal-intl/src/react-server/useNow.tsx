@@ -1,4 +1,4 @@
-import type {useNow as useNowType} from '../../../use-optimal-intl/dist/types/src';
+import type {useNow as useNowType} from 'use-optimal-intl/dist/types/src';
 import useConfig from './useConfig';
 
 export default function useNow(

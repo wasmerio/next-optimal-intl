@@ -1,5 +1,5 @@
 import {cache} from 'react';
-import {createFormatter} from '../../../../use-optimal-intl/core';
+import {createFormatter} from 'use-optimal-intl/core';
 import getConfig from './getConfig';
 
 async function getFormatterCachedImpl(locale?: string) {

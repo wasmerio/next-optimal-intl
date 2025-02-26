@@ -1,4 +1,4 @@
-import type {IntlConfig} from '../../../../use-optimal-intl/core';
+import type {IntlConfig} from 'use-optimal-intl/core';
 
 export type RequestConfig = Omit<IntlConfig, 'locale'> & {
   /**

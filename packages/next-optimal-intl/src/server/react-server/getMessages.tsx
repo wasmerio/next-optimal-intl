@@ -1,5 +1,5 @@
 import {cache} from 'react';
-import type {AbstractIntlMessages} from '../../../../use-optimal-intl/dist/types/src';
+import type {AbstractIntlMessages} from 'use-optimal-intl/dist/types/src';
 import getConfig from './getConfig';
 
 export function getMessagesFromConfig(

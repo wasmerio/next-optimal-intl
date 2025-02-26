@@ -16,4 +16,4 @@ export {default as useMessages} from './useMessages';
 export {default as NextIntlClientProvider} from './NextIntlClientProviderServer';
 
 // Everything from `core`
-export * from '../../../use-optimal-intl/core';
+export * from 'use-optimal-intl/core';
