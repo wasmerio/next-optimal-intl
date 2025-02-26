@@ -8,7 +8,7 @@
     "secret": "Secret page for logged in users"
   },
   "LocaleLayout": {
-    "title": "next-intl with Auth.js example"
+    "title": "next-optimal-intl with Auth.js example"
   },
   "Login": {
     "title": "Login",

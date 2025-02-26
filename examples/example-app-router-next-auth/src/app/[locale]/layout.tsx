@@ -1,6 +1,6 @@
 import {notFound} from 'next/navigation';
-import {NextIntlClientProvider} from 'next-intl';
-import {getMessages} from 'next-intl/server';
+import {NextIntlClientProvider} from 'next-optimal-intl';
+import {getMessages} from 'next-optimal-intl/server';
 import {ReactNode} from 'react';
 import {routing} from '@/i18n/routing';
 
@@ -23,7 +23,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <head>
-        <title>next-intl & next-auth</title>
+        <title>next-optimal-intl & next-auth</title>
       </head>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>

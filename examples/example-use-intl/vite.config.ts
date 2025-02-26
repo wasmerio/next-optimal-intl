@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
 
-  // TODO: Remove after use-intl has full ESM support
+  // TODO: Remove after use-optimal-intl has full ESM support
   // https://vitejs.dev/guide/dep-pre-bundling#monorepos-and-linked-dependencies
-  optimizeDeps: {include: ['use-intl']},
-  build: {commonjsOptions: {include: [/use-intl/, /node_modules/]}}
+  optimizeDeps: {include: ['use-optimal-intl']},
+  build: {commonjsOptions: {include: [/use-optimal-intl/, /node_modules/]}}
 });

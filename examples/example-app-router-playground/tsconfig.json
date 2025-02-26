@@ -22,7 +22,7 @@
       "@/*": ["./src/*"]
     },
 
-    // See https://github.com/amannn/next-intl/pull/1509
+    // See https://github.com/amannn/next-optimal-intl/pull/1509
     "declaration": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

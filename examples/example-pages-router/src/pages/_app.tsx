@@ -1,6 +1,6 @@
 import {AppProps} from 'next/app';
 import {useRouter} from 'next/router';
-import {NextIntlClientProvider} from 'next-intl';
+import {NextIntlClientProvider} from 'next-optimal-intl';
 
 export default function App({Component, pageProps}: AppProps) {
   const router = useRouter();

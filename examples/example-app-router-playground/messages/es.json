@@ -28,8 +28,8 @@
     "title": "Recién llegado"
   },
   "LocaleLayout": {
-    "description": "Este es un ejemplo de cómo usar next-intl en el directorio app.",
-    "title": "Ejemplo next-intl"
+    "description": "Este es un ejemplo de cómo usar next-optimal-intl en el directorio app.",
+    "title": "Ejemplo next-optimal-intl"
   },
   "LocaleSwitcher": {
     "switchLocale": "Cambiar a {locale, select, de {Alemán} en {Inglés} other {Desconocido}}"
@@ -52,7 +52,7 @@
     "title": "Esta página no se encontró (404)"
   },
   "OpenGraph": {
-    "title": "Ejemplo next-intl"
+    "title": "Ejemplo next-optimal-intl"
   },
   "ServerActions": {
     "item": "Artículo #{id}"

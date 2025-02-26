@@ -1,7 +1,7 @@
 import {Metadata} from 'next';
 import {notFound} from 'next/navigation';
-import {NextIntlClientProvider} from 'next-intl';
-import {getMessages, setRequestLocale} from 'next-intl/server';
+import {NextIntlClientProvider} from 'next-optimal-intl';
+import {getMessages, setRequestLocale} from 'next-optimal-intl/server';
 import {ReactNode} from 'react';
 import Document from '@/components/Document';
 import {locales} from '@/config';
@@ -18,7 +18,7 @@ export function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  title: 'next-intl-mixed-routing (public)'
+  title: 'next-optimal-intl-mixed-routing (public)'
 };
 
 export default async function LocaleLayout({

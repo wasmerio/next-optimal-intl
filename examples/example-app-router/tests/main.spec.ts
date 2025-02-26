@@ -13,7 +13,7 @@ it('handles i18n routing', async ({page}) => {
     .selectOption({value: 'en'});
 
   await expect(page).toHaveURL('/en');
-  page.getByRole('heading', {name: 'next-intl example'});
+  page.getByRole('heading', {name: 'next-optimal-intl example'});
 });
 
 it('handles not found pages', async ({page}) => {
@@ -44,18 +44,18 @@ it('sets caching headers', async ({request}) => {
 
 it('can be used to configure metadata', async ({page}) => {
   await page.goto('/en');
-  await expect(page).toHaveTitle('next-intl example');
+  await expect(page).toHaveTitle('next-optimal-intl example');
 
   await page.goto('/de');
-  await expect(page).toHaveTitle('next-intl Beispiel');
+  await expect(page).toHaveTitle('next-optimal-intl Beispiel');
 });
 
 it('can be used to localize the page', async ({page}) => {
   await page.goto('/en');
-  page.getByRole('heading', {name: 'next-intl example'});
+  page.getByRole('heading', {name: 'next-optimal-intl example'});
 
   await page.goto('/de');
-  page.getByRole('heading', {name: 'next-intl Beispiel'});
+  page.getByRole('heading', {name: 'next-optimal-intl Beispiel'});
 });
 
 it('sets a cookie', async ({page}) => {
@@ -134,7 +134,7 @@ it('provides a manifest', async ({page}) => {
   const response = await page.goto('/manifest.webmanifest');
   const body = await response!.json();
   expect(body).toEqual({
-    name: 'next-intl example',
+    name: 'next-optimal-intl example',
     start_url: '/',
     theme_color: '#101E33'
   });

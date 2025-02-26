@@ -1,6 +1,6 @@
 import pick from 'lodash/pick';
 import {GetServerSidePropsContext} from 'next';
-import {useFormatter, useTranslations} from 'next-intl';
+import {useFormatter, useTranslations} from 'next-optimal-intl';
 import PageLayout from 'components/PageLayout';
 
 export default function About() {
@@ -31,7 +31,7 @@ export async function getServerSideProps({locale}: GetServerSidePropsContext) {
       ),
       // Note that when `now` is passed to the app, you need to make sure the
       // value is updated from time to time, so relative times are updated. See
-      // https://next-intl.dev/docs/usage/configuration#global-now-value
+      // https://next-optimal-intl.dev/docs/usage/configuration#global-now-value
       now: new Date().getTime()
     }
   };

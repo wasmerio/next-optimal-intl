@@ -1,4 +1,4 @@
-import {useTranslations} from 'next-intl';
+import {useTranslations} from 'next-optimal-intl';
 
 export default function ListItem({id}: {id: number}) {
   const t = useTranslations('ServerActions');

@@ -1,6 +1,6 @@
 import {StrictMode} from 'react';
 import ReactDOM from 'react-dom/client';
-import {IntlProvider} from 'use-intl';
+import {IntlProvider} from 'use-optimal-intl';
 import App from './App.tsx';
 
 // You can get the messages from anywhere you like. You can also

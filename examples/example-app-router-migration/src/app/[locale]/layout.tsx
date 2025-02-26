@@ -16,7 +16,7 @@ export default async function LocaleLayout({children, params}: Props) {
   return (
     <html lang={params.locale}>
       <head>
-        <title>next-intl</title>
+        <title>next-optimal-intl</title>
       </head>
       <body>{children}</body>
     </html>

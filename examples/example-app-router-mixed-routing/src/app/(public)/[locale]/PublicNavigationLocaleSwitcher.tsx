@@ -1,6 +1,6 @@
 'use client';
 
-import {useLocale} from 'next-intl';
+import {useLocale} from 'next-optimal-intl';
 import {Locale} from '@/config';
 import {Link, usePathname} from '@/i18n/routing.public';
 

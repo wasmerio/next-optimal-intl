@@ -1,4 +1,4 @@
-import {useLocale, useTranslations} from 'next-intl';
+import {useLocale, useTranslations} from 'next-optimal-intl';
 import {Link} from '@/i18n/routing';
 
 export default function LocaleSwitcher() {

@@ -1,5 +1,5 @@
 import {useRouter} from 'next/router';
-import {NextIntlClientProvider, useTranslations} from 'next-intl';
+import {NextIntlClientProvider, useTranslations} from 'next-optimal-intl';
 
 // This page acts as a test environment for the TypeScript integration
 

@@ -1,4 +1,4 @@
-import {useTranslations} from 'next-intl';
+import {useTranslations} from 'next-optimal-intl';
 import PageTitle from '@/components/PageTitle';
 
 export default function App() {

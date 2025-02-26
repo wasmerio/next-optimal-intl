@@ -1,6 +1,6 @@
 # example-remix
 
-An example that showcases a basic installation of `use-intl` in a [Remix app](https://remix.run/).
+An example that showcases a basic installation of `use-optimal-intl` in a [Remix app](https://remix.run/).
 
 The relevant integration code is:
 

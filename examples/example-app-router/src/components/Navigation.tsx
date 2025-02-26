@@ -1,4 +1,4 @@
-import {useTranslations} from 'next-intl';
+import {useTranslations} from 'next-optimal-intl';
 import LocaleSwitcher from './LocaleSwitcher';
 import NavigationLink from './NavigationLink';
 

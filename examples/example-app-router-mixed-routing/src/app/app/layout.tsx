@@ -1,6 +1,6 @@
 import {Metadata} from 'next';
-import {NextIntlClientProvider} from 'next-intl';
-import {getLocale, getMessages} from 'next-intl/server';
+import {NextIntlClientProvider} from 'next-optimal-intl';
+import {getLocale, getMessages} from 'next-optimal-intl/server';
 import {ReactNode} from 'react';
 import Document from '@/components/Document';
 import AppNavigation from './AppNavigation';
@@ -12,7 +12,7 @@ type Props = {
 };
 
 export const metadata: Metadata = {
-  title: 'next-intl-mixed-routing (app)'
+  title: 'next-optimal-intl-mixed-routing (app)'
 };
 
 export default async function LocaleLayout({children}: Props) {

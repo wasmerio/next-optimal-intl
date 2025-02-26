@@ -1,5 +1,5 @@
 import {NextRequest, NextResponse} from 'next/server';
-import {getTranslations} from 'next-intl/server';
+import {getTranslations} from 'next-optimal-intl/server';
 
 type Props = {
   params: {

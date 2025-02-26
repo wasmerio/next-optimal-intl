@@ -1,5 +1,5 @@
 import pick from 'lodash/pick';
-import {NextIntlClientProvider, useMessages} from 'next-intl';
+import {NextIntlClientProvider, useMessages} from 'next-optimal-intl';
 import ClientCounter from './ClientCounter';
 
 export default function Counter() {

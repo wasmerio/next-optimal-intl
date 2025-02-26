@@ -1,5 +1,5 @@
-import {createNavigation} from 'next-intl/navigation';
-import {defineRouting} from 'next-intl/routing';
+import {createNavigation} from 'next-optimal-intl/navigation';
+import {defineRouting} from 'next-optimal-intl/routing';
 import {defaultLocale, locales} from '../config';
 
 export const routing = defineRouting({

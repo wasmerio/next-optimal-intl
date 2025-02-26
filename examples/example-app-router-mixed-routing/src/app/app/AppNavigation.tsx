@@ -1,4 +1,4 @@
-import {useTranslations} from 'next-intl';
+import {useTranslations} from 'next-optimal-intl';
 import NavLink from './NavLink';
 
 export default function AppNavigation() {

@@ -1,4 +1,4 @@
-import {useTranslations} from 'next-intl';
+import {useTranslations} from 'next-optimal-intl';
 import ClientCounter from './ClientCounter';
 
 export default function Counter() {

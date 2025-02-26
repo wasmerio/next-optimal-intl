@@ -1,6 +1,6 @@
 import {StatusBar} from 'expo-status-bar';
 import {StyleSheet, Text, View} from 'react-native';
-import {IntlProvider, useTranslations} from 'use-intl';
+import {IntlProvider, useTranslations} from 'use-optimal-intl';
 
 // You can get the messages from anywhere you like. You can also
 // fetch them from within a component and then render the provider

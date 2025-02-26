@@ -1,4 +1,4 @@
-import {useTranslations} from 'next-intl';
+import {useTranslations} from 'next-optimal-intl';
 import {ReactNode} from 'react';
 import ExternalLink from './ExternalLink';
 

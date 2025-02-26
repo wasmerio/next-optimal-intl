@@ -1,5 +1,5 @@
 import {Metadata} from 'next';
-import {useTranslations} from 'next-intl';
+import {useTranslations} from 'next-optimal-intl';
 import {Locale, getPathname} from '@/i18n/routing';
 
 type Props = {

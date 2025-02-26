@@ -1,9 +1,9 @@
 import acceptLanguageParser from 'accept-language-parser';
 import type {NextApiRequest, NextApiResponse} from 'next';
-import {createFormatter, createTranslator} from 'next-intl';
+import {createFormatter, createTranslator} from 'next-optimal-intl';
 import nextConfig from '../../../next.config';
 
-// This file demonstrates how `next-intl` can
+// This file demonstrates how `next-optimal-intl` can
 // be used in API routes to translate messages.
 
 export default async function handler(

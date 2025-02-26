@@ -1,4 +1,4 @@
-import {useLocale, useTranslations} from 'next-intl';
+import {useLocale, useTranslations} from 'next-optimal-intl';
 import {routing} from '@/i18n/routing';
 import LocaleSwitcherSelect from './LocaleSwitcherSelect';
 

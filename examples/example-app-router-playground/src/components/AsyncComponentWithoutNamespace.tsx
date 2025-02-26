@@ -1,4 +1,4 @@
-import {getTranslations} from 'next-intl/server';
+import {getTranslations} from 'next-optimal-intl/server';
 
 export default async function AsyncComponentWithoutNamespace() {
   const t = await getTranslations();

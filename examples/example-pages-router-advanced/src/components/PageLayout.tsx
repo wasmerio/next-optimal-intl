@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import {useTranslations} from 'next-intl';
+import {useTranslations} from 'next-optimal-intl';
 import {ReactNode} from 'react';
 import Navigation from 'components/Navigation';
 

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import {useTranslations} from 'next-intl';
+import {useTranslations} from 'next-optimal-intl';
 import {ReactNode} from 'react';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import NavLink from '@/components/NavLink';

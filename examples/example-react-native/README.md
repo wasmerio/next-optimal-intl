@@ -1,8 +1,8 @@
 # example-react-native
 
-An example that showcases the usage of `use-intl` with React Native.
+An example that showcases the usage of `use-optimal-intl` with React Native.
 
-Please double check that [the runtime requirements](https://next-intl.dev/docs/environments/runtime-requirements) are fulfilled.
+Please double check that [the runtime requirements](https://next-optimal-intl.dev/docs/environments/runtime-requirements) are fulfilled.
 
 ```
 pnpm install

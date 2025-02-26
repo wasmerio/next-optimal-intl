@@ -1,5 +1,5 @@
 import {pick} from 'lodash';
-import {NextIntlClientProvider, useMessages} from 'next-intl';
+import {NextIntlClientProvider, useMessages} from 'next-optimal-intl';
 import List from './List';
 import ListItem from './ListItem';
 import ListItemAsync from './ListItemAsync';

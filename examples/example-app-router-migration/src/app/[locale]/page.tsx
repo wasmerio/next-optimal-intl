@@ -1,4 +1,4 @@
-import {useLocale, useTranslations} from 'next-intl';
+import {useLocale, useTranslations} from 'next-optimal-intl';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import PageLayout from '@/components/PageLayout';
 import {Link} from '@/i18n/routing';

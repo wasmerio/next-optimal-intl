@@ -1,7 +1,7 @@
 // @ts-check
 
 import mdxPlugin from '@next/mdx';
-import createNextIntlPlugin from 'next-intl/plugin';
+import createNextIntlPlugin from 'next-optimal-intl/plugin';
 
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.tsx');
 const withMdx = mdxPlugin();

@@ -1,4 +1,4 @@
-import {useTranslations} from 'use-intl';
+import {useTranslations} from 'use-optimal-intl';
 
 type Props = {
   user: {

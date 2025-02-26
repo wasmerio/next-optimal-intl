@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import {useFormatter, useNow, useTimeZone, useTranslations} from 'next-intl';
+import {useFormatter, useNow, useTimeZone, useTranslations} from 'next-optimal-intl';
 import DropdownMenu from '@/components/DropdownMenu';
 import RichText from '@/components/RichText';
 import {Link} from '@/i18n/routing';

@@ -1,5 +1,5 @@
 import type {Preview} from '@storybook/react';
-import nextIntl from './next-intl';
+import nextIntl from './next-optimal-intl';
 
 const preview: Preview = {
   initialGlobals: {

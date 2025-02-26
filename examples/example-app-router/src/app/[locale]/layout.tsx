@@ -1,5 +1,5 @@
 import {notFound} from 'next/navigation';
-import {getTranslations, setRequestLocale} from 'next-intl/server';
+import {getTranslations, setRequestLocale} from 'next-optimal-intl/server';
 import {ReactNode} from 'react';
 import BaseLayout from '@/components/BaseLayout';
 import {routing} from '@/i18n/routing';

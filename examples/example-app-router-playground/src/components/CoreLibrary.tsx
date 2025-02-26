@@ -1,4 +1,4 @@
-import {createFormatter, createTranslator} from 'next-intl';
+import {createFormatter, createTranslator} from 'next-optimal-intl';
 
 export default function CoreLibrary() {
   const t = createTranslator({

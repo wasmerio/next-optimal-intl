@@ -1,4 +1,4 @@
-import {useLocale} from 'next-intl';
+import {useLocale} from 'next-optimal-intl';
 import {redirect} from '@/i18n/routing';
 
 export default function Redirect() {

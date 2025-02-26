@@ -1,7 +1,7 @@
 import pick from 'lodash/pick';
 import {GetStaticPropsContext} from 'next';
 import {useRouter} from 'next/router';
-import {useTranslations} from 'next-intl';
+import {useTranslations} from 'next-optimal-intl';
 import Code from 'components/Code';
 import PageLayout from 'components/PageLayout';
 

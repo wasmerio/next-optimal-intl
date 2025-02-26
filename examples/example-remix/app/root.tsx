@@ -7,7 +7,7 @@ import {
   useLoaderData
 } from '@remix-run/react';
 import {ReactNode} from 'react';
-import {IntlProvider} from 'use-intl';
+import {IntlProvider} from 'use-optimal-intl';
 import {getMessages, resolveLocale} from './utils';
 
 export async function loader({request}: {request: Request}) {
@@ -21,7 +21,7 @@ export async function loader({request}: {request: Request}) {
 }
 
 export function meta() {
-  return [{title: 'Remix use-intl example'}];
+  return [{title: 'Remix use-optimal-intl example'}];
 }
 
 export function Layout({children}: {children: ReactNode}) {

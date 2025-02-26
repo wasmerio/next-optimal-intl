@@ -1,4 +1,4 @@
-import {useNow} from 'next-intl';
+import {useNow} from 'next-optimal-intl';
 import {use} from 'react';
 
 export default function DelayedServerContent() {

@@ -180,10 +180,10 @@ it('sets the `lang` attribute on `html`', async ({page}) => {
 
 it('can be used in the head', async ({page}) => {
   await page.goto('/en');
-  await expect(page).toHaveTitle('next-intl example');
+  await expect(page).toHaveTitle('next-optimal-intl example');
 
   await page.goto('/de');
-  await expect(page).toHaveTitle('next-intl Beispiel');
+  await expect(page).toHaveTitle('next-optimal-intl Beispiel');
 });
 
 it('can be used to localize the page', async ({page}) => {
@@ -204,7 +204,7 @@ it('can pass internationalized labels to a client component', async ({
   await expect(element).toHaveText(/Current count: 1/);
 });
 
-it('can use next-intl on the client side', async ({page}) => {
+it('can use next-optimal-intl on the client side', async ({page}) => {
   await page.goto('/en');
   const element = page.getByTestId('MessagesOnClientCounter');
   await expect(element).toHaveText(/Current count: 0/);
@@ -603,10 +603,10 @@ it('can use the formatter', async ({page}) => {
 
 it('populates metadata', async ({page}) => {
   await page.goto('/en');
-  await expect(page).toHaveTitle('next-intl example');
+  await expect(page).toHaveTitle('next-optimal-intl example');
   await expect(page.locator('meta[name="description"]')).toHaveAttribute(
     'content',
-    'This is an example of using next-intl in the `app` directory.'
+    'This is an example of using next-optimal-intl in the `app` directory.'
   );
   await expect(page.locator('meta[name="currentYear"]')).toHaveAttribute(
     'content',

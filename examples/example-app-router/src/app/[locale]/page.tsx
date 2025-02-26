@@ -1,5 +1,5 @@
-import {useTranslations} from 'next-intl';
-import {setRequestLocale} from 'next-intl/server';
+import {useTranslations} from 'next-optimal-intl';
+import {setRequestLocale} from 'next-optimal-intl/server';
 import PageLayout from '@/components/PageLayout';
 
 type Props = {

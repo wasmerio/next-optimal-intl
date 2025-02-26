@@ -1,4 +1,4 @@
-import {useTranslations} from 'use-intl';
+import {useTranslations} from 'use-optimal-intl';
 
 export default function Index() {
   const t = useTranslations('Index');

@@ -1,6 +1,6 @@
 import pick from 'lodash/pick';
 import {GetStaticPropsContext} from 'next';
-import {useTranslations} from 'next-intl';
+import {useTranslations} from 'next-optimal-intl';
 import PageLayout from 'components/PageLayout';
 
 export default function NotFound() {

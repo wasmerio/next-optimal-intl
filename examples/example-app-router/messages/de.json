@@ -4,11 +4,11 @@
     "title": "Etwas ist schief gelaufen!"
   },
   "IndexPage": {
-    "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite.",
-    "title": "next-intl Beispiel"
+    "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-optimal-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite.",
+    "title": "next-optimal-intl Beispiel"
   },
   "LocaleLayout": {
-    "title": "next-intl Beispiel"
+    "title": "next-optimal-intl Beispiel"
   },
   "LocaleSwitcher": {
     "label": "Sprache ändern",
@@ -28,13 +28,13 @@
   "PageLayout": {
     "links": {
       "docs": {
-        "description": "Erfahre mehr über next-intl in der offiziellen Dokumentation.",
-        "href": "https://next-intl.dev",
+        "description": "Erfahre mehr über next-optimal-intl in der offiziellen Dokumentation.",
+        "href": "https://next-optimal-intl.dev",
         "title": "Dokumentation"
       },
       "source": {
         "description": "Sieh dir den Quellcode dieses Beispiels auf GitHub an.",
-        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "href": "https://github.com/amannn/next-optimal-intl/tree/main/examples/example-app-router",
         "title": "Quellcode"
       }
     }

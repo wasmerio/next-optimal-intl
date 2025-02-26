@@ -1,5 +1,5 @@
 import {redirect} from 'next/navigation';
-import {useTranslations} from 'next-intl';
+import {useTranslations} from 'next-optimal-intl';
 
 export default function Login() {
   const t = useTranslations('Login');

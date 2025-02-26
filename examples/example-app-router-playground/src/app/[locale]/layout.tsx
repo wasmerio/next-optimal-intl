@@ -5,7 +5,7 @@ import {
   getNow,
   getTimeZone,
   getTranslations
-} from 'next-intl/server';
+} from 'next-optimal-intl/server';
 import {ReactNode} from 'react';
 import {routing} from '@/i18n/routing';
 import Navigation from '../../components/Navigation';

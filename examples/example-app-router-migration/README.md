@@ -1,6 +1,6 @@
 # example-app-router-migration
 
-An example that showcases a basic installation of `next-intl` in a Next.js app that uses both the Pages as well as the App Router.
+An example that showcases a basic installation of `next-optimal-intl` in a Next.js app that uses both the Pages as well as the App Router.
 
 **Important**: Do not add an `i18n` config to `next.config.js`, as it will cause the `app` directory to be ignored.
 
@@ -8,4 +8,4 @@ An example that showcases a basic installation of `next-intl` in a Next.js app t
 
 By deploying to [Vercel](https://vercel.com), you can check out the example in action. Note that you'll be prompted to create a new GitHub repository as part of this, allowing you to make subsequent changes.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/amannn/next-intl/tree/main/examples/example-app-router-migration)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/amannn/next-optimal-intl/tree/main/examples/example-app-router-migration)

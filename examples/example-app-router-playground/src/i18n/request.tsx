@@ -1,6 +1,6 @@
 import {headers} from 'next/headers';
-import {Formats} from 'next-intl';
-import {getRequestConfig} from 'next-intl/server';
+import {Formats} from 'next-optimal-intl';
+import {getRequestConfig} from 'next-optimal-intl/server';
 import defaultMessages from '../../messages/en.json';
 import {routing} from './routing';
 

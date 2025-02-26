@@ -5,9 +5,9 @@ type Messages = typeof en;
 type Formats = typeof formats;
 
 declare global {
-  // Use type safe message keys with `next-intl`
+  // Use type safe message keys with `next-optimal-intl`
   interface IntlMessages extends Messages {}
 
-  // Use type safe formats with `next-intl`
+  // Use type safe formats with `next-optimal-intl`
   interface IntlFormats extends Formats {}
 }

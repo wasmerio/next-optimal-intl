@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import {Inter} from 'next/font/google';
-import {NextIntlClientProvider} from 'next-intl';
-import {getLocale, getMessages} from 'next-intl/server';
+import {NextIntlClientProvider} from 'next-optimal-intl';
+import {getLocale, getMessages} from 'next-optimal-intl/server';
 import {ReactNode} from 'react';
 import './globals.css';
 
@@ -21,7 +21,7 @@ export default async function LocaleLayout({children}: Props) {
   return (
     <html lang={locale}>
       <head>
-        <title>next-intl example</title>
+        <title>next-optimal-intl example</title>
       </head>
       <body
         className={clsx(

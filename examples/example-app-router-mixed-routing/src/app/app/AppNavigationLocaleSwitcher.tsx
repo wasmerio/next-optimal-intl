@@ -1,7 +1,7 @@
 'use client';
 
 import {useRouter} from 'next/navigation';
-import {useLocale} from 'next-intl';
+import {useLocale} from 'next-optimal-intl';
 import {Locale} from '@/config';
 import updateLocale from './updateLocale';
 

@@ -1,6 +1,6 @@
 import {isEqual} from 'lodash';
-import {useTranslations} from 'next-intl';
-import {getTranslations} from 'next-intl/server';
+import {useTranslations} from 'next-optimal-intl';
+import {getTranslations} from 'next-optimal-intl/server';
 import {z} from 'zod';
 import ZodForm from './ZodForm';
 

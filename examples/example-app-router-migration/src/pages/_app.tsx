@@ -1,6 +1,6 @@
 import {AppProps} from 'next/app';
 import {NextRouter, withRouter} from 'next/router';
-import {NextIntlClientProvider} from 'next-intl';
+import {NextIntlClientProvider} from 'next-optimal-intl';
 
 type Props = AppProps & {
   router: NextRouter;

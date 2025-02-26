@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import {Session} from 'next-auth';
 import {signOut} from 'next-auth/react';
-import {useLocale, useTranslations} from 'next-intl';
+import {useLocale, useTranslations} from 'next-optimal-intl';
 import PageLayout from '@/components/PageLayout';
 
 type Props = {

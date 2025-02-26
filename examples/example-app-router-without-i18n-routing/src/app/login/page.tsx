@@ -1,8 +1,8 @@
 import {UsersIcon} from '@heroicons/react/24/outline';
 import {isEqual} from 'lodash';
 import {redirect} from 'next/navigation';
-import {useLocale, useTranslations} from 'next-intl';
-import {getTranslations} from 'next-intl/server';
+import {useLocale, useTranslations} from 'next-optimal-intl';
+import {getTranslations} from 'next-optimal-intl/server';
 import {z} from 'zod';
 import Button from '@/components/Button';
 import FormField from '@/components/FormField';

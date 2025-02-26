@@ -13,8 +13,8 @@ import {
   useNow,
   useTimeZone,
   useTranslations
-} from 'next-intl';
-import createNextIntlPlugin from 'next-intl/plugin';
+} from 'next-optimal-intl';
+import createNextIntlPlugin from 'next-optimal-intl/plugin';
 import {
   getFormatter,
   getLocale,
@@ -22,7 +22,7 @@ import {
   getNow,
   getTimeZone,
   getTranslations
-} from 'next-intl/server';
+} from 'next-optimal-intl/server';
 
 export function useExports() {
   const messages = useMessages();

@@ -1,5 +1,5 @@
-import {NextIntlClientProvider} from 'next-intl';
-import {getLocale, getMessages} from 'next-intl/server';
+import {NextIntlClientProvider} from 'next-optimal-intl';
+import {getLocale, getMessages} from 'next-optimal-intl/server';
 import {ReactNode} from 'react';
 
 type Props = {
@@ -16,7 +16,7 @@ export default async function LocaleLayout({children}: Props) {
   return (
     <html lang={locale}>
       <head>
-        <title>next-intl</title>
+        <title>next-optimal-intl</title>
       </head>
       <body>
         <NextIntlClientProvider messages={messages}>

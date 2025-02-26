@@ -1,4 +1,4 @@
-import {getFormatter, getTranslations} from 'next-intl/server';
+import {getFormatter, getTranslations} from 'next-optimal-intl/server';
 
 export default async function AsyncComponent() {
   const t = await getTranslations('AsyncComponent');

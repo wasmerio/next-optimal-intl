@@ -2,7 +2,7 @@
 
 import {useRouter} from 'next/navigation';
 import {signIn} from 'next-auth/react';
-import {useLocale, useTranslations} from 'next-intl';
+import {useLocale, useTranslations} from 'next-optimal-intl';
 import {FormEvent, useState} from 'react';
 import PageLayout from '@/components/PageLayout';
 
