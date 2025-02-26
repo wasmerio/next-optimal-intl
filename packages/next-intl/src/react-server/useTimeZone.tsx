@@ -1,4 +1,4 @@
-import type {useTimeZone as useTimeZoneType} from 'use-intl';
+import type {useTimeZone as useTimeZoneType} from 'use-optimal-intl';
 import useConfig from './useConfig';
 
 export default function useTimeZone(

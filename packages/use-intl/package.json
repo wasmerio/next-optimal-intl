@@ -1,8 +1,8 @@
 {
-  "name": "use-intl",
-  "version": "3.26.5",
+  "name": "use-optimal-intl",
+  "version": "5.0.2",
   "sideEffects": false,
-  "author": "Jan Amann <jan@amann.work>",
+  "author": "Syrus Akbary <sryus@wasmer.io>",
   "description": "Internationalization (i18n) for React",
   "license": "MIT",
   "homepage": "https://next-intl.dev",

@@ -2,7 +2,7 @@
 
 import React, {ComponentProps} from 'react';
 // Workaround for some bundle splitting until we have ESM
-import {IntlProvider} from 'use-intl/_IntlProvider';
+import {IntlProvider} from 'use-optimal-intl/_IntlProvider';
 
 type Props = Omit<ComponentProps<typeof IntlProvider>, 'locale'> & {
   /** This is automatically received when being rendered from a Server Component. In all other cases, e.g. when rendered from a Client Component, a unit test or with the Pages Router, you can pass this prop explicitly. */
@@ -16,7 +16,7 @@ export default function NextIntlClientProvider({locale, ...rest}: Props) {
   if (!locale) {
     throw new Error(
       process.env.NODE_ENV !== 'production'
-        ? 'Failed to determine locale in `NextIntlClientProvider`, please provide the `locale` prop explicitly.\n\nSee https://next-intl.dev/docs/configuration#locale'
+        ? 'Failed to determine locale in `NextIntlClientProvider`, please provide the `locale` prop explicitly.\n\nSee https://next-optimal-intl.dev/docs/configuration#locale'
         : undefined
     );
   }

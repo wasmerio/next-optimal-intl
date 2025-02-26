@@ -18,7 +18,7 @@ const config = {
     plugin: 'src/plugin.tsx',
     config: 'src/config.tsx'
   },
-  external: ['next-intl/config', /use-intl/],
+  external: ['next-optimal-intl/config', /use-optimal-intl/],
   output: {
     preserveModules: true
   },

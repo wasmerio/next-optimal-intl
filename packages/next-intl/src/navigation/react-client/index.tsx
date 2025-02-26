@@ -9,6 +9,6 @@ import type {
   Pathnames as PathnamesDeprecatedExport
 } from '../../routing/types';
 
-/** @deprecated Please import from `next-intl/routing` instead. */
+/** @deprecated Please import from `next-optimal-intl/routing` instead. */
 export type Pathnames<AppLocales extends Locales> =
   PathnamesDeprecatedExport<AppLocales>;

@@ -1,6 +1,6 @@
 import {useParams} from 'next/navigation';
 // Workaround for some bundle splitting until we have ESM
-import {useLocale as useBaseLocale} from 'use-intl/_useLocale';
+import {useLocale as useBaseLocale} from 'use-optimal-intl/_useLocale';
 import {LOCALE_SEGMENT_NAME} from '../shared/constants';
 
 let hasWarnedForParams = false;
@@ -20,7 +20,7 @@ export default function useLocale(): string {
     if (typeof params?.[LOCALE_SEGMENT_NAME] === 'string') {
       if (process.env.NODE_ENV !== 'production' && !hasWarnedForParams) {
         console.warn(
-          'Deprecation warning: `useLocale` has returned a default from `useParams().locale` since no `NextIntlClientProvider` ancestor was found for the calling component. This behavior will be removed in the next major version. Please ensure all Client Components that use `next-intl` are wrapped in a `NextIntlClientProvider`.'
+          'Deprecation warning: `useLocale` has returned a default from `useParams().locale` since no `NextIntlClientProvider` ancestor was found for the calling component. This behavior will be removed in the next major version. Please ensure all Client Components that use `next-optimal-intl` are wrapped in a `NextIntlClientProvider`.'
         );
         hasWarnedForParams = true;
       }

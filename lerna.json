@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/@lerna-lite/cli/schemas/lerna-schema.json",
-  "version": "3.26.5",
+  "version": "5.0.2",
   "packages": [
     "packages/*"
   ],
@@ -15,10 +15,7 @@
       "yes": true
     },
     "version": {
-      "changelogIncludeCommitsClientLogin": " – by @%l",
-      "conventionalCommits": true,
-      "createRelease": "github",
-      "syncWorkspaceLock": true
+      "conventionalCommits": true
     }
   }
 }

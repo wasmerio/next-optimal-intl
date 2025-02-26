@@ -1,8 +1,8 @@
 {
-  "name": "next-intl",
-  "version": "3.26.5",
+  "name": "next-optimal-intl",
+  "version": "5.0.2",
   "sideEffects": false,
-  "author": "Jan Amann <jan@amann.work>",
+  "author": "Syrus Akbary <sryus@wasmer.io>",
   "funding": [
     {
       "type": "individual",
@@ -11,10 +11,10 @@
   ],
   "description": "Internationalization (i18n) for Next.js",
   "license": "MIT",
-  "homepage": "https://next-intl.dev",
+  "homepage": "https://next-optimal-intl.dev",
   "repository": {
     "type": "git",
-    "url": "https://github.com/amannn/next-intl"
+    "url": "https://github.com/amannn/next-optimal-intl"
   },
   "scripts": {
     "build": "rm -rf dist && rollup -c",
@@ -88,7 +88,7 @@
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.5.4",
     "negotiator": "^1.0.0",
-    "use-intl": "workspace:^"
+    "use-optimal-intl": "workspace:^"
   },
   "peerDependencies": {
     "next": "^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0",

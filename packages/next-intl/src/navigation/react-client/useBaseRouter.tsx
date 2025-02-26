@@ -23,7 +23,7 @@ type IntlNavigateOptions<AppLocales extends Locales> = {
  * ```tsx
  * 'use client';
  *
- * import {useRouter} from 'next-intl/client';
+ * import {useRouter} from 'next-optimal-intl/client';
  *
  * const router = useRouter();
  *

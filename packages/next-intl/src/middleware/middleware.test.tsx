@@ -354,12 +354,12 @@ describe('prefix-based routing', () => {
       );
     });
 
-    it('always provides the locale via a request header, even if a cookie exists with the correct value (see https://github.com/amannn/next-intl/discussions/446)', () => {
+    it('always provides the locale via a request header, even if a cookie exists with the correct value (see https://github.com/amannn/next-optimal-intl/discussions/446)', () => {
       middleware(createMockRequest('/', 'en', 'http://localhost:3000', 'en'));
       expect(MockedNextResponse.rewrite).toHaveBeenCalled();
       expect(
         MockedNextResponse.rewrite.mock.calls[0][1]?.request?.headers?.get(
-          'x-next-intl-locale'
+          'x-next-optimal-intl-locale'
         )
       ).toBe('en');
     });
@@ -1471,7 +1471,7 @@ describe('prefix-based routing', () => {
       });
 
       it('allows to map a nested path to the root', () => {
-        // https://github.com/amannn/next-intl/issues/940
+        // https://github.com/amannn/next-optimal-intl/issues/940
         const middlewareWithMapping = createMiddleware({
           defaultLocale: 'en',
           locales: ['en', 'de'],

@@ -47,7 +47,7 @@ function ClientLink<
  *
  * @example
  * ```tsx
- * import {Link} from 'next-intl';
+ * import {Link} from 'next-optimal-intl';
  *
  * // When the user is on `/en`, the link will point to `/en/about`
  * <Link href="/about">About</Link>

@@ -1,6 +1,6 @@
 /**
  * This is the main entry file when non-'react-server'
- * environments import from 'next-intl'.
+ * environments import from 'next-optimal-intl'.
  *
  * Maintainer notes:
  * - Make sure this mirrors the API from 'react-server'.
@@ -11,9 +11,9 @@
 import {
   useFormatter as base_useFormatter,
   useTranslations as base_useTranslations
-} from 'use-intl';
+} from 'use-optimal-intl';
 
-export * from 'use-intl';
+export * from 'use-optimal-intl';
 
 // eslint-disable-next-line @typescript-eslint/no-unsafe-function-type
 function callHook(name: string, hook: Function) {
@@ -30,7 +30,7 @@ This can happen because:
    failed, and therefore React attempted to render the component on the client
    instead. If this is the case, check the console for server errors.
 2) You intended to render this component on the client side, but no context was found.
-   Learn more about this error here: https://next-intl.dev/docs/environments/server-client-components#missing-context`
+   Learn more about this error here: https://next-optimal-intl.dev/docs/environments/server-client-components#missing-context`
           : undefined
       );
     }
@@ -46,7 +46,7 @@ export const useFormatter = callHook(
   base_useFormatter
 ) as typeof base_useFormatter;
 
-// Replace `useLocale` export from `use-intl`
+// Replace `useLocale` export from `use-optimal-intl`
 export {default as useLocale} from './useLocale';
 
 export {default as NextIntlClientProvider} from '../shared/NextIntlClientProvider';

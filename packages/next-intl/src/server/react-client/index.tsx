@@ -10,10 +10,10 @@ import type {
 } from '../react-server';
 
 /**
- * Allows to import `next-intl/server` in non-RSC environments.
+ * Allows to import `next-optimal-intl/server` in non-RSC environments.
  *
  * This is mostly relevant for testing, since e.g. a `generateMetadata`
- * export from a page might use `next-intl/server`, but the test
+ * export from a page might use `next-optimal-intl/server`, but the test
  * only uses the default export for a page.
  */
 

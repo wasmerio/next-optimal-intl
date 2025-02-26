@@ -26,7 +26,7 @@ vi.mock('next/navigation', async () => {
     permanentRedirect: vi.fn()
   };
 });
-vi.mock('next-intl/config', () => ({
+vi.mock('next-optimal-intl/config', () => ({
   default: async () =>
     ((await vi.importActual('../../src/server')) as any).getRequestConfig({
       locale: 'en'

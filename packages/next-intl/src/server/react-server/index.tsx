@@ -1,5 +1,5 @@
 /**
- * Server-only APIs available via `next-intl/server`.
+ * Server-only APIs available via `next-optimal-intl/server`.
  */
 
 export {
