@@ -9,7 +9,7 @@ import {
   RichTranslationValues,
   TranslationValues,
   createTranslator
-} from 'use-intl/core';
+} from '../../../use-optimal-intl/core';
 
 function getTranslatorImpl<
   NestedKey extends NamespaceKeys<

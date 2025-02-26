@@ -1,4 +1,4 @@
-import type {useLocale as useLocaleType} from 'use-intl';
+import type {useLocale as useLocaleType} from '../../../use-optimal-intl/dist/types/src';
 import useConfig from './useConfig';
 
 export default function useLocale(

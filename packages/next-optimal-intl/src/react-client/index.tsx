@@ -11,9 +11,9 @@
 import {
   useFormatter as base_useFormatter,
   useTranslations as base_useTranslations
-} from 'use-intl';
+} from '../../../use-optimal-intl/dist/types/src';
 
-export * from 'use-intl';
+export * from '../../../use-optimal-intl/dist/types/src';
 
 // eslint-disable-next-line @typescript-eslint/no-unsafe-function-type
 function callHook(name: string, hook: Function) {
@@ -46,7 +46,7 @@ export const useFormatter = callHook(
   base_useFormatter
 ) as typeof base_useFormatter;
 
-// Replace `useLocale` export from `use-intl`
+// Replace `useLocale` export from `use-optimal-intl`
 export {default as useLocale} from './useLocale';
 
 export {default as NextIntlClientProvider} from '../shared/NextIntlClientProvider';

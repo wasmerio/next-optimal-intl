@@ -1,4 +1,4 @@
-import type {useMessages as useMessagesType} from 'use-intl';
+import type {useMessages as useMessagesType} from '../../../use-optimal-intl/dist/types/src';
 import {getMessagesFromConfig} from '../server/react-server/getMessages';
 import useConfig from './useConfig';
 

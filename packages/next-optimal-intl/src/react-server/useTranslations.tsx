@@ -1,4 +1,4 @@
-import type {useTranslations as useTranslationsType} from 'use-intl';
+import type {useTranslations as useTranslationsType} from '../../../use-optimal-intl/dist/types/src';
 import getBaseTranslator from './getTranslator';
 import useConfig from './useConfig';
 

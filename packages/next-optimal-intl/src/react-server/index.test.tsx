@@ -28,7 +28,7 @@ vi.mock('../../src/server/react-server/createRequestConfig', () => ({
   })
 }));
 
-vi.mock('use-intl/core', async (importActual) => {
+vi.mock('use-optimal-intl/core', async (importActual) => {
   const actual: any = await importActual();
   return {
     ...actual,
